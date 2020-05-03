@@ -7,14 +7,14 @@
 
 export default {
   name: "About",
-  beforeRouteEnter(to, from, next) {
-    console.log(window.isLogin);
-    // 判断是否登录
-    if (!window.isLogin) {
-      next(`/login?redirect=${to.path}`);
-    } else {
-      next();
-    }
-  }
+  // beforeRouteEnter(to, from, next) {
+  //   console.log(window.isLogin);
+  //   // 判断是否登录
+  //   if (!window.isLogin) {
+  //     next(`/login?redirect=${to.path}`);
+  //   } else {
+  //     next();
+  //   }
+  // }
 };
 </script>
