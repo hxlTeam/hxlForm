@@ -1,4 +1,6 @@
-# hxlform
+# hxlform 
+
+# 带验证功能的表单组件
 
 ## Project setup
 ```
@@ -27,3 +29,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
